@@ -67,4 +67,5 @@ model.add_landmark("Pogonion", (0, 0, -5), "Chin prominence")
 model.add_landmark("Menton", (0, -2, -6), "Lowest point of chin")
 
 print(f"Distance Nasion-Pogonion: {model.get_distance('Nasion', 'Pogonion'):.2f} mm")
+
 model.visualize()
